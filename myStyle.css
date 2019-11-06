@@ -1,0 +1,241 @@
+body{
+    background: rgb(92, 90, 90);
+    /* background-image: url(Bg-Img/1.jpg); */
+}
+
+@media print {
+    html, body {
+        width: 210mm;
+        /* height: 297mm; */
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        background-color: white;
+        padding: 10px;
+    }
+    .profileImg {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        width: 21cm;
+        margin: auto;
+        background-color: white;
+        box-shadow: 0 0 .5cm rgba(0,0,0,0.5);
+        padding: 20px;
+    }
+
+    .profileImg {
+        width: 18%;
+        height: 18%;
+        border-radius: 50%;
+    }
+}
+
+.profile {
+    width: auto;
+    background-color: inherit
+}
+
+.profileName{
+    float: right;
+    margin-top: 10px;
+    font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (1920 - 300)));
+    height: 50px;
+}
+
+.nameLine {
+    border:  0.5px black solid;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: inherit;
+}
+
+/* .title {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} */
+
+.personalInfo {
+    margin-top: 0px;
+    width: 100%;
+    display: inline-block;
+}
+
+.addressInfo {
+    width: calc(100% - 50%);
+    float: left;
+}
+
+.contactInfo {
+    float: right;
+}
+
+.profileTitle {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.profileSummary {
+    margin-left: 15px;
+}
+.summaryDetails {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.descText {
+    margin-top: 5px;
+    line-height: 23px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.verticalLine {
+    border: 0.5px black solid;
+    margin-top: 10px;
+}
+
+.skillInfo, .workInfo, .educationInfo, .extraSkillInfo {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.skillTitle, .workTitles, .workTitles, .extraSkillTitle, .declarationInfo, .declarationTitle {
+    margin-top: 15px;
+}
+.workTitles1 {
+    margin-top: 10px;
+}
+
+.skilsSection, .skilsDetails {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.skilsDetails {
+    width: calc(100% - 5%);
+    line-height: 23px;
+}
+
+.techTitles {
+    width: calc(100% - 71%);
+    font-size: 16px;
+    line-height: 23px;
+    float: left;
+}
+
+.techValues {
+    width: calc(100% - 31%);
+    float: right;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.experinceContent {
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.subTitle {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.experinceSection {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.timeSection {
+    /* width: calc(100% - 71%); */
+    /* float: left; */
+    float: right;
+}
+
+.textSection {
+    /* width: calc(100% - 31%); */
+    /* float: right; */
+    float: left;
+}
+
+.jobHeader, .studyHeader, .projectHeader {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jobSubHeader, .projectSubHeader {
+    font-size: 16px;
+    margin-left: 10px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.jobDescription, .studyDescription, .projectDescription {
+    margin-top: 3px;
+    line-height: 24px;
+}
+
+.delarationText {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.declarationSign {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.datePlaceSection {
+    display: inline-block;
+    width: calc(100% - 70%);
+    margin-left: 30px;
+}
+
+.personSignature {
+    width: calc(50% - 28%);
+    text-align: center;
+    float: right;
+} 
+/* .declarationSignature, .declarationName {
+    float: right;
+} */
+
+.declarationDate {
+    margin-top: 10px;
+}
+
+.declarationName {
+    margin-top: 15px;
+}
+.toolsDetails {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.firstTime {
+    font-weight: bold;
+}
