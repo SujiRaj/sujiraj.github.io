@@ -80,10 +80,14 @@ body{
 .addressInfo {
     width: calc(100% - 50%);
     float: left;
+    line-height: 21px;
+    font-size: 16px;
 }
 
 .contactInfo {
     float: right;
+    line-height: 21px;
+    font-size: 16px;
 }
 
 .profileTitle {
@@ -98,6 +102,7 @@ body{
 .summaryDetails {
     line-height: 25px;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .descText {
@@ -124,14 +129,22 @@ body{
     margin-top: 10px;
 }
 
-.skilsSection, .skilsDetails {
+.skilsSection {
     width: 100%;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 10px;
 }
-.skilsDetails {
+
+.skilsDetails, .extraSkilsDetails {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
     width: calc(100% - 5%);
     line-height: 23px;
+}
+.extraSkilsDetails {
+    margin-top: 10px;
 }
 
 .techTitles {
@@ -194,8 +207,8 @@ body{
 }
 
 .jobDescription, .studyDescription, .projectDescription {
-    margin-top: 3px;
-    line-height: 24px;
+    margin-top: 5px;
+    line-height: 25px;
 }
 
 .delarationText {
